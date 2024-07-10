@@ -16,14 +16,17 @@ body{
 
 .bgd-red{
     background-color: red;
+    color: yellow;
 }
 
 .bgd-green{
     background-color: green;
+    color: yellow;
 }
 
-.bdg-yellow{
-    color: green;
+.bgd-yellow{
+    background-color: yellow;
+    color: darkgreen;    
 }
 
 
@@ -39,7 +42,6 @@ img{
 }
 
 h1{
-    color: rgb(225, 225, 24);
     font-size: 50px;
 }  
 
@@ -51,10 +53,10 @@ section div{
   height: 100%;
 }
 
-
+/* 
 .center{
 position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
-}
+} */
