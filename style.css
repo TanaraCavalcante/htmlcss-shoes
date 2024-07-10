@@ -9,10 +9,21 @@
     margin: 0 auto;
 }
 
-.full-page{
-    position: relative;
+html{
+    overflow-y: hidden;
 }
 
+.bgd-green{
+    background-color: green;
+}
+
+
+/*  MAIN */
+.full-page{
+    font-family: 'Rubik Mono One', sans-serif;
+    position: relative;
+    height: 100vh;
+}
 
 img{
     position: absolute;
@@ -22,10 +33,10 @@ img{
 }
 
 h1{
-    color: rgb(15, 15, 13);
+    color: rgb(225, 225, 24);
     font-size: 50px;
     position: absolute;
-    top: 0;
-    bottom: 0;
-    text-align: center;
+    top: 70%;
+    left: 30%;
+    text-align: center;  
 }
