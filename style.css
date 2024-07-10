@@ -38,6 +38,7 @@ img{
     top: 50px;
     left: 50px;
     transform: translate(50%, -10%);
+    max-: ;
 }
 
 h1{
@@ -47,4 +48,5 @@ h1{
     top: 70%;
     left: 30%;
     text-align: center; 
+}  
     
