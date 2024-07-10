@@ -53,10 +53,25 @@ section div{
   height: 100%;
 }
 
-/* 
-.center{
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-} */
+/* Menu */
+
+nav{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+ul{
+   list-style-type: none;
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+}
+
+li{
+    font-size: 16px;
+    font-weight: bold;
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 50%;
+}
