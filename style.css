@@ -34,19 +34,27 @@ body{
 }
 
 img{
-    position: absolute;
-    top: 50px;
-    left: 50px;
-    transform: translate(50%, -10%);
-    max-: ;
+    display:block;
+    height: 50vh;  
 }
 
 h1{
     color: rgb(225, 225, 24);
     font-size: 50px;
-    position: absolute;
-    top: 70%;
-    left: 30%;
-    text-align: center; 
 }  
-    
+
+section div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+
+.center{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
